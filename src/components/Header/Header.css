@@ -1,0 +1,37 @@
+.header {
+  width: 100%;
+  padding: 18px 0;
+  z-index: 10;
+  top: 0;
+  background-color: transparent;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__container {
+  width: 80%;
+}
+.header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 220px;
+}
+
+.pc__button {
+  all: unset;
+  background-color: var(--white);
+  color: var(--highlight);
+  padding: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+}
