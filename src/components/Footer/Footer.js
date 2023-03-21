@@ -1,5 +1,5 @@
 import "./Footer.css";
-import FooterLogo from "./../../assets/headerlogo.svg";
+import FooterLogo from "./../../assets/headerlogoWhite.svg";
 
 function Footer() {
   const data = [

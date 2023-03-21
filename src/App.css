@@ -1,15 +1,13 @@
 .app {
   background-color: var(--background);
-  height: 200vh;
 }
 
 .top__container {
   background-color: var(--highlight);
   height: 40vh;
-
   /* width: 100vw; */
 }
 
 .content {
-  height: 1000px;
+  height: 1500px;
 }
