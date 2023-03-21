@@ -16,7 +16,7 @@
   width: 80%;
 }
 .footer .top_container {
-  border-bottom: 1px solid var(--grey);
+  border-bottom: 1px solid var(--disabled);
   height: 20vh;
   display: flex;
   flex-direction: row;
@@ -33,4 +33,8 @@
 .column > p {
   margin-bottom: 30px;
   cursor: pointer;
+}
+
+.column > p:hover {
+  text-decoration: underline;
 }
