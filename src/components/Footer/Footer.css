@@ -8,19 +8,21 @@
   align-items: center;
   justify-content: flex-end;
 }
-.footer__top_container,
-.footer__bottom_container {
-  width: 80%;
-  /* background-color: red; */
+.logo {
+  cursor: pointer;
 }
-.footer__top_container {
+.footer .top_container,
+.footer .bottom_container {
+  width: 80%;
+}
+.footer .top_container {
   border-bottom: 1px solid var(--grey);
   height: 20vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.footer__bottom_container {
+.footer .bottom_container {
   display: flex;
   padding-top: 20px;
   flex-direction: row;

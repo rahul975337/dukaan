@@ -11,7 +11,6 @@ function Header() {
       setIsTop(true);
     }
   };
-
   useEffect(() => {
     changeNav();
     window.addEventListener("scroll", changeNav);
@@ -21,19 +20,19 @@ function Header() {
       className="header"
       style={{ backgroundColor: isTop ? "var(--highlight)" : "var(--white)" }}
     >
-      <div className="header__container">
+      <div className="container">
         <div className="logo">
           <img src={isTop ? HeaderLogoWhite : HeaderLogoBlack} alt="" />
         </div>
         <div className="buttons">
-          <p
+          <button
             className="signin"
             style={{
               color: isTop ? "var(--white)" : "var(--black)",
             }}
           >
             Sign in
-          </p>
+          </button>
           <button
             className="pc__button"
             style={{
@@ -49,5 +48,3 @@ function Header() {
   );
 }
 export default Header;
-//button blue
-//text black

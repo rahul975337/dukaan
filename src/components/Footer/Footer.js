@@ -1,17 +1,10 @@
 import "./Footer.css";
 import FooterLogo from "./../../assets/logos/logoWhite.svg";
-
+import { data } from "./../../data/footerData";
 function Footer() {
-  const data = [
-    ["Contact", "FAQ"],
-    ["Tutorials", "Blog"],
-    ["Privacy", "Banned Items"],
-    ["About", "Jobs"],
-    ["Facebook", "Twitter", "Linkedin"],
-  ];
   return (
     <div className="footer">
-      <div className="footer__top_container">
+      <div className="top_container">
         <div className="logo">
           <img src={FooterLogo} alt="" />
         </div>
@@ -24,7 +17,7 @@ function Footer() {
         ))}
       </div>
 
-      <div className="footer__bottom_container">
+      <div className="bottom_container">
         <p>Dukaan 2020, All rights reserved.</p>
         <p>Made in 🇮🇳</p>
       </div>

@@ -1,9 +1,9 @@
 .app {
   background-color: var(--background);
+  transition: all ease 0.2s;
 }
 
 .top__container {
   background-color: var(--highlight);
   height: 40vh;
-  /* width: 100vw; */
 }
