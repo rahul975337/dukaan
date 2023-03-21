@@ -13,7 +13,8 @@
 }
 .products .heading {
   color: var(--black);
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: -0.04em;
   font-size: 2rem;
 }
 .product__list {
@@ -33,12 +34,14 @@
 }
 
 .product > .title {
-  font-weight: 600;
+  font-family: "GGMedium", sans-serif;
+  font-weight: 400;
   margin-top: 30px;
+  font-size: 1.2rem;
   margin-bottom: 10px;
 }
 
 .product > .desc {
-  line-height: 1.5em;
+  line-height: 1.2em;
   color: var(--grey);
 }

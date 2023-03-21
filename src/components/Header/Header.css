@@ -3,7 +3,7 @@
   padding: 18px 0;
   z-index: 10;
   top: 0;
-  transition: all ease 0.2s;
+  transition: all ease 0.1s;
   background-color: transparent;
   position: fixed;
   display: flex;
@@ -42,6 +42,6 @@
   background-color: var(--white);
   color: var(--highlight);
   padding: 15px;
-  font-weight: 500;
+  font-family: "GGMedium", sans-serif;
   border-radius: 5px;
 }

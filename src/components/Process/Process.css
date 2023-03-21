@@ -33,7 +33,7 @@
 .process__title {
   color: var(--black);
   margin-bottom: 10px;
-  font-weight: bold;
+  font-family: "GGMedium", sans-serif;
 }
 .process__desc {
   color: var(--grey);

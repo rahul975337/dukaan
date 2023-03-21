@@ -31,7 +31,7 @@ function Header() {
               color: isTop ? "var(--white)" : "var(--black)",
             }}
           >
-            Sign in
+            Sign In
           </button>
           <button
             className="pc__button"
