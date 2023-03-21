@@ -41,6 +41,7 @@
   all: unset;
   background-color: var(--white);
   color: var(--highlight);
+  transition: all ease 0.2s;
   padding: 15px;
   font-family: "GGMedium", sans-serif;
   border-radius: 5px;
