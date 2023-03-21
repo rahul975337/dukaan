@@ -1,6 +1,6 @@
-import step1 from "./../../assets/step1.svg";
-import step2 from "./../../assets/step2.svg";
-import step3 from "./../../assets/step3.svg";
+import step1 from "./../../assets/process/step1.svg";
+import step2 from "./../../assets/process/step2.svg";
+import step3 from "./../../assets/process/step3.svg";
 import "./Process.css";
 function Process() {
   return (

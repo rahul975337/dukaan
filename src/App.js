@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Form from "./components/Form/Form";
@@ -12,9 +11,7 @@ function App() {
       <Header />
       <div className="top__container"></div>
       <Form />
-      <div className="content"></div>
       <Process />
-      {/* try our free profucts */}
       <Products />
       <Footer />
     </div>

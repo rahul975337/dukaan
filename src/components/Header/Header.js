@@ -1,11 +1,10 @@
 import "./Header.css";
-import HeaderLogoWhite from "./../../assets/headerlogoWhite.svg";
-import HeaderLogoBlack from "./../../assets/headerLogoBlack.svg";
+import HeaderLogoWhite from "./../../assets/logos/logoWhite.svg";
+import HeaderLogoBlack from "./../../assets/logos/logoBlack.svg";
 import { useEffect, useState } from "react";
 function Header() {
   const [isTop, setIsTop] = useState(true);
-  //logo scroll function
-  const changeBackground = () => {
+  const changeNav = () => {
     if (window.scrollY >= 150) {
       setIsTop(false);
     } else {
@@ -14,8 +13,8 @@ function Header() {
   };
 
   useEffect(() => {
-    changeBackground();
-    window.addEventListener("scroll", changeBackground);
+    changeNav();
+    window.addEventListener("scroll", changeNav);
   });
   return (
     <div

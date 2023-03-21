@@ -1,5 +1,5 @@
 import "./Form.css";
-import { AiOutlineClose } from "react-icons/ai";
+import { FiChevronRight } from "react-icons/fi";
 import Search from "./Seach";
 function Form() {
   let total = 21;
@@ -52,6 +52,7 @@ function Form() {
             </div>
           </div>
           <div className="pagination">
+            <div className="container"></div>
             <div className="container">
               <div className="number__container">
                 <p className="number">1</p>
@@ -68,6 +69,10 @@ function Form() {
               <div className="number__container">
                 <p className="number">{total}</p>
               </div>
+            </div>
+            <div className="next__button">
+              <p>Next</p>
+              <FiChevronRight />
             </div>
           </div>
         </div>
